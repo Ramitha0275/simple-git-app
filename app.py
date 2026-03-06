@@ -1,8 +1,13 @@
 import sys
-def add(a,b):
-    return a+b
-if _name_=="main":
-    m=int(sys.argv[1])
-    n=int(sys.argv[2])
-    result=add(m,n)
-    print(f"{result}")
+def add_numbers(a, b):
+ return a + b
+if __name__ == "__main__":
+ num1 = int(sys.argv[1])
+ num2 = int(sys.argv[2])
+ result = add_numbers(num1, num2)
+ print("=================================")
+ print("Addition Result")
+ print("=================================")
+ print(f"First Number : {num1}")
+ print(f"Second Number: {num2}")
+ print(f"Sum : {result}")
